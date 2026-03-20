@@ -17,11 +17,34 @@
       </nav>
     </div>
   </header>
-  <!-- Change Text Color and Background -->
-  <div>
-    <p style="background-color: aqua; color: green;">Paragraph 1</p>
-    <p style="background-color: aqua; color: green;">Paragraph 2</p>
-    <p style="background-color: aqua; color: green;">Paragraph 3</p>
-  </div>
+  <main>
+    <section>
+      <!-- Change Text Color and Background -->
+      <div>
+        <!-- inline css -->
+        <p style="background-color: aqua; color: green;">Paragraph 1</p>
+        <p style="background-color: aqua; color: green;">Paragraph 2</p>
+        <p style="background-color: aqua; color: green;">Paragraph 3</p>
+      </div>
+    </section>
+    <section>
+      <!-- Use Class and ID Selectors -->
+      <div class="box">
+        <p id="title"> Second Practice Question.</p>
+      </div>
+      <!-- internal css -->
+      <style>
+        .box{
+          width: 200px;
+          height: 100px;
+          background-color: lightblue;
+        }
+        #title{
+          color: green;
+          text-align: center;
+        }
+      </style>
+    </section>
+  </main>
 </body>
 </html>
